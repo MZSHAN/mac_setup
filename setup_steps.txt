@@ -1,0 +1,36 @@
+Steps of setting up a new mac
+
+Good guide here - https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-cool-terminal-1no0
+
+* Download iterm2 - better functionality than terminal eg. Vertical horizontal pane shortcuts.
+    * Follow steps to apply solarized color scheme https://iterm2colorschemes.com/
+* Continue using zsh - better for command line work( auto-complete, syntax highlighting)
+    * Note: Use bash for scripting
+    * Download oh-my-zsh - https://github.com/ohmyzsh/ohmyzsh/wiki
+        * GitHub plugin is already present - if not install it
+    * Set powerlevel10k - https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#meslo-nerd-font-patched-for-powerlevel10k
+    * Install zsh syntax highlighting from source - https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+    * Install zsh autosuggestions from source - https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
+        * Add to zshrc for dark solarized `ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=231’`. - https://stackoverflow.com/questions/47310537/how-to-change-zsh-autosuggestions-color
+    * Install colorls using `sudo gem install colorls` and set alias https://github.com/athityakumar/colorls?tab=readme-ov-file#recommended-configurationsgit clone git://github.com/altercation/vim-colors-solarized.git
+* Set vim solarized - https://github.com/altercation/vim-colors-solarized?tab=readme-ov-file
+    * Add to vimrc 
+        * syntax enable
+        * set background=dark
+        * colorscheme solarized
+        * 
+        * set expandtab
+        * set ts=4
+* Install virtual studio code
+    * Get git plugins 
+    * Resolve terminal utf-8 issue from https://github.com/romkatv/powerlevel10k/issues/671
+    * Short cut keys?
+    * Install error lens
+
+
+
+Git plugin shortcuts:
+https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git#functions
+Explore other plugins:
+https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins-Overview#fs-jumping
+
